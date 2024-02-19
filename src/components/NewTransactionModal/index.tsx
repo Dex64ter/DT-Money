@@ -7,10 +7,10 @@ export function NewTransactionModal() {
     <Dialog.Portal>
       <Overlay/>
       <Content>
+        <Dialog.Title> Nova Transação </Dialog.Title>
         <CloseButton>
           <X size={24}/>
         </CloseButton>
-        <Dialog.Title> Nova Transação </Dialog.Title>
         <form>
           <input type="text" placeholder="Descrição" required/>
           <input type="number" placeholder="Preço" required/>
@@ -19,7 +19,6 @@ export function NewTransactionModal() {
           <button type="submit">Cadastrar</button>
         </form>
 
-        
       </Content>          
     </Dialog.Portal>
   )

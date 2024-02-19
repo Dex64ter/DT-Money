@@ -12,7 +12,7 @@ export const Overlay = styled(Dialog.Overlay)`
 export const Content = styled(Dialog.Content)`
   min-width: 32rem;
   border-radius: 6px;
-  padding: 3rem;
+  padding: 2.5rem 3rem;
   background: ${props => props.theme['gray-800']};
 
   position: fixed;
@@ -21,11 +21,11 @@ export const Content = styled(Dialog.Content)`
   transform: translate(-50%, -50%);
 
   form {
+    margin-top: 2rem;
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
-    position: relative;
 
     input {
       border-radius: 6px;
@@ -40,7 +40,7 @@ export const Content = styled(Dialog.Content)`
     }
 
     button[type="submit"] {
-      height: 58px;
+      height: 50px;
       border: 0;
       border-radius: 6px;
 
@@ -58,6 +58,8 @@ export const Content = styled(Dialog.Content)`
     }
   }
 `;
+
+
 
 export const CloseButton = styled(Dialog.Close)`
   position: absolute;
