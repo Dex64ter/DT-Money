@@ -21,7 +21,7 @@
       "description": "Formatação de pc",
       "type": "income",
       "category": "Serviços",
-      "price": 50.00,
+      "price": 50,
       "createdAt": "2024-01-10T22:24:29.720Z"
     },
     {
@@ -29,7 +29,7 @@
       "description": "Saída com namorada",
       "type": "outcome",
       "category": "Lazer",
-      "price": 150.00,
+      "price": 150,
       "createdAt": "2024-01-28T22:24:29.720Z"
     },
     {
@@ -37,7 +37,7 @@
       "description": "E-commerce",
       "type": "income",
       "category": "Venda",
-      "price": 2500.00,
+      "price": 2500,
       "createdAt": "2023-07-09T22:24:29.720Z"
     },
     {
@@ -47,6 +47,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2024-02-19T22:24:29.720Z"
+    },
+    {
+      "description": "Subway",
+      "price": 45,
+      "category": "Lanche",
+      "type": "outcome",
+      "createdAt": "2024-02-20T20:18:33.388Z",
+      "id": 6
+    },
+    {
+      "description": "Site e-commerce",
+      "type": "income",
+      "category": "Venda",
+      "price": 5200,
+      "createdAt": "2024-02-20T21:02:37.591Z",
+      "id": 7
     }
   ]
 }
