@@ -1,22 +1,20 @@
-import { HeaderContainer, HeaderContent, NewTransactionButtton } from "./styles";
-import { NewTransactionModal } from "../NewTransactionModal";
-import * as Dialog from '@radix-ui/react-dialog';
-import LogoImg from '../../assets/Logo.svg';
+import { HeaderContainer, HeaderContent, NewTransactionButtton } from './styles'
+import { NewTransactionModal } from '../NewTransactionModal'
+import * as Dialog from '@radix-ui/react-dialog'
+import LogoImg from '../../assets/Logo.svg'
 
 export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <img src={LogoImg} />
+        <img src={LogoImg} alt="Logo do ignite" />
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewTransactionButtton>
-              Nova transação
-            </NewTransactionButtton>
+            <NewTransactionButtton>Nova transação</NewTransactionButtton>
           </Dialog.Trigger>
 
-          <NewTransactionModal/>
+          <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
