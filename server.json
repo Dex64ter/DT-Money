@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": 0,
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
@@ -13,8 +13,32 @@
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 46.50,
+      "price": 45,
       "createdAt": "2024-02-19T22:24:29.720Z"
+    },
+    {
+      "id": 2,
+      "description": "Formatação de pc",
+      "type": "income",
+      "category": "Serviços",
+      "price": 50.00,
+      "createdAt": "2024-01-10T22:24:29.720Z"
+    },
+    {
+      "id": 3,
+      "description": "Saída com namorada",
+      "type": "outcome",
+      "category": "Lazer",
+      "price": 150.00,
+      "createdAt": "2024-01-28T22:24:29.720Z"
+    },
+    {
+      "id": 4,
+      "description": "E-commerce",
+      "type": "income",
+      "category": "Venda",
+      "price": 2500.00,
+      "createdAt": "2023-07-09T22:24:29.720Z"
     }
   ]
 }
