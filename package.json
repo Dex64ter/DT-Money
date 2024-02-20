@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "json-server -w server.json",
+    "dev:server": "json-server -w -d 500 server.json",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -32,7 +32,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "json-server": "^1.0.0-alpha.23",
+    "json-server": "^0.17.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }
